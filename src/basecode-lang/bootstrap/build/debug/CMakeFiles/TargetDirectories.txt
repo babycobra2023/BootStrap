@@ -1,0 +1,3 @@
+/Users/babycobra/CLionProjects/src/basecode-lang/bootstrap/build/debug/CMakeFiles/bootstrap.dir
+/Users/babycobra/CLionProjects/src/basecode-lang/bootstrap/build/debug/CMakeFiles/edit_cache.dir
+/Users/babycobra/CLionProjects/src/basecode-lang/bootstrap/build/debug/CMakeFiles/rebuild_cache.dir
