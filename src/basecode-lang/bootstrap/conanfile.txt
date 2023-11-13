@@ -1,0 +1,5 @@
+[requires]
+fmt/4.1.0@bincrafters/stable
+
+[generators]
+cmake

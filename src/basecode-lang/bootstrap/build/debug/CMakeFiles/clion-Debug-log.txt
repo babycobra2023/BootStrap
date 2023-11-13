@@ -1,16 +1,143 @@
 /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/ninja -G Ninja -S /Users/babycobra/CLionProjects/src/basecode-lang/bootstrap -B /Users/babycobra/CLionProjects/src/basecode-lang/bootstrap/build/debug
--- The C compiler identification is AppleClang 15.0.0.15000040
--- The CXX compiler identification is AppleClang 15.0.0.15000040
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Check for working C compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc - skipped
--- Detecting C compile features
--- Detecting C compile features - done
--- Detecting CXX compiler ABI info
--- Detecting CXX compiler ABI info - done
--- Check for working CXX compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ - skipped
--- Detecting CXX compile features
--- Detecting CXX compile features - done
--- Configuring done (0.3s)
--- Generating done (0.0s)
--- Build files have been written to: /Users/babycobra/CLionProjects/src/basecode-lang/bootstrap/build/debug
+CMake Warning (dev) at CMakeLists.txt:10:
+  Syntax Warning in cmake code at column 48
+
+  Argument not separated from preceding token by whitespace.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:10:
+  Syntax Warning in cmake code at column 49
+
+  Argument not separated from preceding token by whitespace.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:11:
+  Syntax Warning in cmake code at column 26
+
+  Argument not separated from preceding token by whitespace.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:11:
+  Syntax Warning in cmake code at column 60
+
+  Argument not separated from preceding token by whitespace.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:12:
+  Syntax Warning in cmake code at column 21
+
+  Argument not separated from preceding token by whitespace.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:12:
+  Syntax Warning in cmake code at column 55
+
+  Argument not separated from preceding token by whitespace.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:14:
+  Syntax Warning in cmake code at column 21
+
+  Argument not separated from preceding token by whitespace.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:14:
+  Syntax Warning in cmake code at column 62
+
+  Argument not separated from preceding token by whitespace.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:20:
+  Syntax Warning in cmake code at column 26
+
+  Argument not separated from preceding token by whitespace.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:20:
+  Syntax Warning in cmake code at column 39
+
+  Argument not separated from preceding token by whitespace.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:25:
+  Syntax Warning in cmake code at column 49
+
+  Argument not separated from preceding token by whitespace.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:33:
+  Syntax Warning in cmake code at column 45
+
+  Argument not separated from preceding token by whitespace.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:33:
+  Syntax Warning in cmake code at column 72
+
+  Argument not separated from preceding token by whitespace.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:53:
+  Syntax Warning in cmake code at column 23
+
+  Argument not separated from preceding token by whitespace.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:53:
+  Syntax Warning in cmake code at column 103
+
+  Argument not separated from preceding token by whitespace.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:57:
+  Syntax Warning in cmake code at column 17
+
+  Argument not separated from preceding token by whitespace.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:57:
+  Syntax Warning in cmake code at column 50
+
+  Argument not separated from preceding token by whitespace.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:61:
+  Syntax Warning in cmake code at column 18
+
+  Argument not separated from preceding token by whitespace.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:61:
+  Syntax Warning in cmake code at column 40
+
+  Argument not separated from preceding token by whitespace.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:88:
+  Syntax Warning in cmake code at column 43
+
+  Argument not separated from preceding token by whitespace.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:88:
+  Syntax Warning in cmake code at column 84
+
+  Argument not separated from preceding token by whitespace.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:90:
+  Syntax Warning in cmake code at column 43
+
+  Argument not separated from preceding token by whitespace.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Error at CMakeLists.txt:92:
+  Parse error.  Function missing ending ")".  Instead found unterminated
+  string with text "
+
+          COMMAND ${CMAKE_COMMAND} -E copy ${PROJECT_SOURCE_DIR}/ryu.properties ${PROJECT_BINARY_DIR}
+
+  )".
+
+
+-- Configuring incomplete, errors occurred!
